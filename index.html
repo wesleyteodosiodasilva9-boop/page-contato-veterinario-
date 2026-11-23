@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato e Localização - Instituto Animal Life</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1 class="Instituto">Instituto Animal Life</h1>
+        <nav>
+            <ul>
+                <li><a href="#mensagem">Mensagem</a></li>
+                <li><a href="#mapa">Como chegar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO 1 (Título) -->
+    <section class="secao1">
+        <div>
+            <h2>Contato e Localização</h2>
+            <p>Venha nos conhecer, fale com a gente por mensagem, telefone ou WhatsApp.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO 2 (Formulário + Informações) -->
+    <section class="secao2" id="mensagem">
+
+        <!-- Card 1 -->
+        <div class="divCard1">
+            <h3>Envie uma mensagem</h3>
+            <form id="form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="texto">Mensagem</label>
+                <textarea id="texto" name="mensagem" required></textarea>
+
+                <button type="submit" class="botao">Enviar Mensagem</button>
+                <p id="status" role="status"></p>
+            </form>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="divCard2">
+            <h3>Fale com a clínica</h3>
+
+            <div class="linha">
+                <h5>Telefone</h5>
+                <p>(11) 3000-1234</p>
+            </div>
+
+            <div class="linha">
+                <h5>WhatsApp</h5>
+                <a href="https://wa.me/5511977706969" target="_blank" rel="noopener">(11) 97770-6969</a>
+            </div>
+
+            <div class="linha">
+                <h5>E-mail</h5>
+                <a href="mailto:contato@animallife.com">contato@animallife.com</a>
+            </div>
+
+            <h3 class="titulo-horario">Horários de funcionamento</h3>
+
+            <div class="linha">
+                <h5>Segunda a sexta</h5>
+                <p>8h às 18h</p>
+            </div>
+
+            <div class="linha">
+                <h5>Sábado</h5>
+                <p>8h às 14h</p>
+            </div>
+
+            <div class="linha">
+                <h5>Domingo e feriados</h5>
+                <p>Plantão de emergência</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SEÇÃO 3 (Mapa) -->
+    <section class="secao3" id="mapa">
+        <div class="divCard3">
+            <h3>Onde estamos</h3>
+            <p>Av. Morumbi, 8000 - Sto Amaro</p>
+            <iframe
+                title="Mapa com o endereço da clínica"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.556652520736!2d-46.693432!3d-23.620227999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50c6c76f35f5%3A0xfdb92ecc150778b0!2sAv.%20Morumbi%2C%208000%20-%20Santo%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004703-001!5e0!3m2!1spt-BR!2sbr!4v1794753752872!5m2!1spt-BR!2sbr"
+                style="border:0; border-radius: 8px;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© Instituto Animal Life</p>
+        <div class="redes">
+            <a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+    </footer>
+</body>
+
+</html>
